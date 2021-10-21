@@ -1,0 +1,50 @@
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+h1 {
+  font-family: 'Playfair Display', serif; 
+}
+header p {
+  font-size: 20px;
+}
+aside p {
+  font-size: 14px;
+}
+header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+header, article {
+  max-width: 600px;
+  margin: 0 auto;
+}
+article>p {
+  color: rgb(10, 196, 81);
+}
+h1+p {
+  text-decoration: underline;
+}
+h1~p {
+  font-style: italic;
+}
+li {
+  list-style-type: square;
+}
+li li {
+  list-style-type: circle;
+}
+a[title] {
+  color: red;
+}
+a[href="./hello.html"] {
+  font-weight: bold;
+}
+a[href^="#"] {
+  color: green;
+}
+a[href$="le"] {
+  font-style: italic;
+}
+a[href*="google"] {
+  font-size: 20px;
+}
